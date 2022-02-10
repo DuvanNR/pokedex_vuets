@@ -37,9 +37,8 @@ const actions: ActionTree<PokemonState, StateInterface> = {
 
       const { name, isCard } = (!params || !params.name) ? { name: '', isCard: false } : params;
 
-      const response =  await pokemonApi.get<PokemonResponse>(`/${ name }`)
+      const response =  await pokemonApi.get<PokemonResponse>(`/${ name.toLowerCase() }`)
       const data = response.data;
-      console.log('sdsdsd', response.status);
       const listData = [{ 
                           name: data.name,
                           height: data.height,
