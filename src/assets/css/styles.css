@@ -1,0 +1,73 @@
+@import url(base.css);
+
+/* Styles */
+body {
+  background: var(--color-gray-third-alt);
+}
+
+* {
+  font-family: "Lato";
+}
+
+/* General */
+.bg-gray-primary {
+  background-color: var(--color-gray-primary);
+}
+.bg-gray-secondary {
+  background-color: var(--color-gray-secondary);
+}
+.text-gray-primary {
+  color: var(--color-gray-primary);
+}
+.bg-gray-primary-alt {
+  background-color: var(--color-gray-primary-alt);
+}
+.text-gray-primary-alt {
+  color: var(--color-gray-primary-alt);
+}
+
+.bg-red {
+  background-color: var(--color-red);
+}
+.bg-red-alt {
+  background-color: var(--color-red-alt);
+}
+.bg-gray-third {
+  background-color: var(--color-gray-third);
+}
+.bg-gray-third-alt {
+  background-color: var(--color-gray-third-alt);
+}
+.Montserrat {
+  font-family: "Montserrat";
+}
+
+.box-shadow-custom {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.box-shadow-customBar {
+  box-shadow: 0px -5px 4px rgba(0, 0, 0, 0.05);
+}
+
+.btn-base {
+  @apply justify-center rounded-full self-center px-4 py-2 text-base text-white;
+}
+
+.btn-red {
+  @apply bg-red-alt !important;
+}
+
+.btn-red:hover,
+.btn-red:active {
+  @apply bg-red !important;
+}
+
+.btn-gray {
+  @apply bg-gray-secondary;
+}
+
+.btn-gray:hover,
+.btn-gray:active {
+  @apply bg-gray-primary-alt;
+}
