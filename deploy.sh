@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 #  deploying
-git push -f https://github.com/DuvanNR/pokedexvue_ts.git master:gh-pages
+git push -f https://github.com/DuvanNR/pokedex_vuets.git master:gh-pages
 
 cd -
