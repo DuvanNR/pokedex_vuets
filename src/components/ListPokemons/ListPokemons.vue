@@ -37,9 +37,9 @@
 
 <style scoped>
 
-.svgIconStar:hover path{
-  /* fill: var(--color-mustard); */
-}
+/* .svgIconStar:hover path{
+  fill: var(--color-mustard);
+} */
 
 .activeStar path{
   fill: var(--color-mustard) !important;

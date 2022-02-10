@@ -50,7 +50,7 @@
                 @click="copyClipboard(pokemonCard)"
                 type="button"
                 class=" btn-base btn-red inline-flex justify-center self-center  px-4 py-2 text-base font-medium text-white  focus:outline-none sm:ml-3 sm:w-auto sm:text-sm">
-                Share to my friends
+                {{ textBtnShare }}
                 </button>
               <svg
                 class="w-10 md:w-12"
